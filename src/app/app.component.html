@@ -1,0 +1,12 @@
+<!DOCTYPE HTML>
+<html>
+  <head></head>
+  <body>
+    <h2>GitHub Score</h2>
+    <form (submit)="getGitHub()">
+      Github Username: <input type="text" name="username" [(ngModel)]="username"><br>
+      <input type="submit" value="Calculate my Github Score">
+    </form>
+    <h2>Your Score: {{score}}</h2>
+  </body>
+</html>
